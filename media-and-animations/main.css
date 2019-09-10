@@ -1,0 +1,68 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 200px;
+  width: 900px;
+  background-color: red;
+  transition: 2s;
+  /* animation-name: myspinner;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards; */
+}
+
+/* @keyframes myspinner {
+    0% {
+      border-radius: 0px;
+      background-size: 50%;
+      transform: rotate(0deg);
+      box-shadow: 1px 5px 5px black;
+    }
+  
+    50% {
+      border-radius: 50%;
+      background-size: 300%;
+      background-position: -900px -550px;
+      transform: rotate(90deg);
+      box-shadow: 1px 5px 60px black;
+    }
+  
+    100% {
+      border-radius: 0px;
+      background-size: 50%;
+      transform: rotate(0deg);
+      box-shadow: 1px 5px 5px black;
+    }
+  } */
+
+@media (max-width: 1100px) {
+  .box {
+    background-color: green;
+    transform: translate(300px, 300px);
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+  .box {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .box {
+    background-image: linear-gradient(green, blue, purple, red);
+  }
+}
+
+@media (min-width: 300px) and (max-width: 599px) {
+  .box {
+    background-image: linear-gradient(red, green, blue, purple);
+  }
+}

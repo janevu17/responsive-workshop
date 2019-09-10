@@ -4,6 +4,7 @@ h2 {
 }
 h1 {
   font-size: 62px;
+  letter-spacing: 5px;
 }
 h2 {
   font-size: 36px;
@@ -73,7 +74,7 @@ main {
   }
   .menu-container {
     min-height: 100vh;
-    background: rgb(105, 0, 0);
+    background: rgb(56, 56, 56);
     position: fixed;
     top: 0;
     right: 0;
