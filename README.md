@@ -40,21 +40,3 @@
         </ul>
     </li>
 </ul>
-
-# Mini
-
-## Choose one!
-
-| From the side                                      | From the bottom                                    | From the top                                       | From under nav                                     |
-| -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
-| <img style='width: 100px' src="./media/nav1.png" > | <img style='width: 100px' src="./media/nav2.png" > | <img style='width: 100px' src="./media/nav3.png" > | <img style='width: 100px' src="./media/nav4.png" > |
-
-# Afternoon
-
-## Site clone
-
-### focus on responsive design
-
-<a href="https://blackrockdigital.github.io/startbootstrap-agency/">Afternoon project</a>
-
-<img style='width: 100px' src="./media/afternoon.png" >
