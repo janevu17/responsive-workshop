@@ -21,18 +21,15 @@ header {
 }
 
 header > div {
-  max-width: 1000px;
-  width: 100%;
+  /* currently not flexable */
+  /* try using max-width and width % */
+  width: 1000px;
   padding: 0 15px;
   margin: 0 auto;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.menu-button {
-  display: none;
 }
 
 .menu-container ul {
@@ -63,43 +60,4 @@ main {
   text-align: center;
   padding-top: 300px;
   text-shadow: 1px 1px 2px black;
-}
-
-@media (max-width: 700px) {
-  .menu-button {
-    display: initial;
-    position: fixed;
-    right: 10px;
-    z-index: 2;
-  }
-  .menu-container {
-    min-height: 100vh;
-    background: rgb(56, 56, 56);
-    position: fixed;
-    top: 0;
-    right: 0;
-    transition: 0.3s;
-    transition-timing-function: ease-in-out;
-    transform: translate(0, 0);
-  }
-
-  .menu-container.show {
-    transform: translate(400px, 0);
-  }
-
-  .menu-container ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 80px;
-    height: 100%;
-    min-width: 400px;
-  }
-  .menu-container li {
-    margin: 30px 0;
-  }
-  .menu-container a {
-    font-size: 36px;
-  }
 }
