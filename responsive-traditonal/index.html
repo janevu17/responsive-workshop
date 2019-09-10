@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div>
+        <!-- logo container -->
+        <div class="logo-container">
+          <img src="../media/mobiledevsicon.png" />
+        </div>
+        <!-- logo container end -->
+        <button class="menu-button" onclick="toggler()">Menu</button>
+        <!-- navigaton menu -->
+        <nav class="menu-container">
+          <ul>
+            <li><a href="#/home">Home</a></li>
+            <li><a href="#/about">About</a></li>
+            <li><a href="#/portfolio">Portfolio</a></li>
+            <li><a href="#/contact">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- navigation menu end -->
+      </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Main Content -->
+    <main>
+      <div>
+        <h1>My Custom Site</h1>
+        <h2>fully responsive</h2>
+      </div>
+    </main>
+    <script>
+      function toggler() {
+        const navMenu = document.querySelector(".menu-container");
+        navMenu.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>

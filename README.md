@@ -1,4 +1,4 @@
-# HTML CSS Day III
+# Responsive design
 
 ## To Cover
 
