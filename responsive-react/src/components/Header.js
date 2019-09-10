@@ -4,18 +4,9 @@ export default class Header extends Component {
   constructor() {
     super();
     this.state = {
-      toggleSideBar: false
+      toggle: false
     };
   }
-
-  toggleSideBarFunc = () => {
-    this.setState(prevState => {
-      console.log(prevState.toggleSideBar);
-      return {
-        toggleSideBar: !prevState.toggleSideBar
-      };
-    });
-  };
 
   render() {
     return (
@@ -24,17 +15,8 @@ export default class Header extends Component {
           <div className="logo">
             <a href="#/services">Start Bootstrap</a>
           </div>
-          <button onClick={this.toggleSideBarFunc}>
-            {this.state.toggleSideBar ? (
-              <p>&#x1F37D;</p>
-            ) : (
-              <span role="img" aria-label="Menu">
-                &#x1F354;
-              </span>
-            )}
-          </button>
-          {/* <button onClick={this.toggleSideBarFunc}>MENU &#9776;</button> */}
-          <nav className={this.state.toggleSideBar ? "show" : ""}>
+          {/* toggle button goes here */}
+          <nav>
             <ul>
               <li>
                 <a href="#/services">Home</a>
