@@ -1,13 +1,1 @@
 /* all css here */
-body {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-item: center;
-}
-
-.box(
-  height: 280px;
-  width: 980px;
-  background-color: red;
-}
